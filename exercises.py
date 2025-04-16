@@ -123,7 +123,7 @@ print('Exercise 6:', create_awesome_students())
 def filter_foods_with_a():
     foods = ('tofu', 'bread', 'banana')
 
-    foods_with_an_a = [f"{food}" for food in foods if ('a' in food)]
+    foods_with_an_a = [food for food in foods if ('a' in food)]
 
     return foods_with_an_a
 
